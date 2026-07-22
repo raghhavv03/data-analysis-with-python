@@ -1,7 +1,58 @@
-# Jupyter generated artifacts
+# Jupyter Notebook Artifacts
 .ipynb_checkpoints/
 .virtual_documents/
 
-# Anaconda generated artifacts
-anaconda_projects/
+# Anaconda & Local Projects
+anaconda-projects/
+*.db
+*.sqlite3
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# OS Generated Files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment & Logs
+.env
+.env.local
+*.log
